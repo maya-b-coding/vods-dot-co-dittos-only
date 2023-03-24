@@ -13,11 +13,24 @@
 	   "storage"
 	],
 	"content_scripts": [
-    {
-     	"matches": [
-       		"*://vods.co/*"
-     		],
-     	"js": ["content.js"]
-    }
-  ]
+	    {
+	     	"matches": [
+	       		"*://vods.co/*"
+	     		],
+	     	"exclude_globs": [
+	     		"*://vods.co",
+	     		"*://vods.co/",
+	     		"*://vods.co/about",
+	     		"*://vods.co/missing",
+	     		"*://sf.vods.co/*"
+	     	],
+	     	"js": ["content.js"]
+	    }
+ 	],
+ 	"icons": {
+ 		"16": "icons/icon16.png",
+ 		"48": "icons/icon48.png",
+ 		"128": "icons/icon128.png"
+ 	}
+
 }

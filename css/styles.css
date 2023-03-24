@@ -1,6 +1,6 @@
 #main{
   width: 270px;
-  height: 350px;
+  height: 380px;
   border-style:solid;
   border: 0;
   margin: 0 auto;
@@ -63,6 +63,7 @@
   font-size: 10px;
     display: flex;
   justify-content: center;
+   flex-direction: column;
   align-items: center;
   flex: 1.1 1 auto;
 }
@@ -86,6 +87,10 @@
   background-color: #06b300;
 }
 
+.button_off:disabled {
+  background-color:#658c64
+}
+
 
 .button_on {
   background-color: #d60202;
@@ -93,4 +98,16 @@
 
 .button_on:hover {
   background-color: #bd0202;
+}
+
+.button_on:disabled {
+   background-color: #8a4949;
+}
+
+a:link {
+  color: #8fbeff;
+}
+
+a:visited {
+  color: #d596ff;
 }
