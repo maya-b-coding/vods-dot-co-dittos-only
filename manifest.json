@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
 	"name": "Vods.co - Show Dittos Only",
-	"version": "0.1",
-	"description": "For the site vods.co - filters the page to show only dittos.",
+	"version": "1.0",
+	"description": "For Vods.co - Filters the page to show only dittos.",
 	"author": "mayabello71@gmail.com",
 	"action": {
 		"default_popup": "index.html",
