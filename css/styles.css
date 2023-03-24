@@ -1,0 +1,96 @@
+#main{
+  width: 270px;
+  height: 350px;
+  border-style:solid;
+  border: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+   font-family: Arial,Helvetica,sans-serif;
+   overflow: hidden;
+   color: white;
+}
+
+#body {
+  background-color: #555555;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+#filter_button{
+	position: center;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 750;
+  justify-content: center;
+  align-items: space-around;
+  text-align: center;
+  flex: 1.25 1 auto;
+}
+
+.inner_title {
+  margin: 2px
+}
+
+#header {
+	font-size: 20px;
+  font-weight: 450;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 auto;
+}
+
+#header_text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#button_container {
+	display: flex;
+	justify-content: center;
+	flex: 1.5 1 auto;
+  align-items: center;
+  margin-bottom: 20px
+}
+
+#disclaimer {
+  font-size: 10px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1.1 1 auto;
+}
+
+#filter_button {
+  height: 80%;
+  width: 55%;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+  color:white;
+  border: 0;
+  border-radius: 15px;
+}
+
+.button_off {
+  background-color: #09d602;
+}
+
+.button_off:hover {
+  background-color: #06b300;
+}
+
+
+.button_on {
+  background-color: #d60202;
+}
+
+.button_on:hover {
+  background-color: #bd0202;
+}
